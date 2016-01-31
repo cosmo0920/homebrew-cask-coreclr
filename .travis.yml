@@ -9,10 +9,10 @@ matrix:
       os: osx
       osx_image: xcode7.1
       rvm: system
-script: |
-  brew uninstall --force brew-cask
-  brew update
-  brew tap caskroom/cask
-  brew tap cosmo0920/cask-coreclr
-  sudo brew cask install coreclr
-  sudo brew cask uninstall coreclr
+script:
+  - brew uninstall --force brew-cask
+  - brew update
+  - brew tap caskroom/cask
+  - brew tap cosmo0920/cask-coreclr
+  - sudo brew cask install coreclr
+  - sudo brew cask uninstall coreclr
