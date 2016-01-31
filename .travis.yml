@@ -1,0 +1,6 @@
+language: objective-c
+os: osx
+script: |
+  brew tap cosmo0920/cask-coreclr
+  sudo brew cask install coreclr
+  sudo brew cask uninstall coreclr
