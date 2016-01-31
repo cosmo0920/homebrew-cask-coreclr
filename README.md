@@ -4,6 +4,7 @@ Coreclr cask for homebrew-cask
 [![Build Status](https://travis-ci.org/cosmo0920/homebrew-cask-coreclr.svg?branch=master)](https://travis-ci.org/cosmo0920/homebrew-cask-coreclr)
 
 An unofficial coreclr cask for homebrew-cask.
+This cask's target is Yosemite (10.10) or higher.
 
 ## How To Use
 
