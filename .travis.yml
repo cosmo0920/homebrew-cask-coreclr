@@ -1,5 +1,14 @@
 language: objective-c
-os: osx
+matrix:
+  include:
+    - env: OSX=10.11 HOMEBREW_RUBY=2.0.0
+      os: osx
+      osx_image: xcode7.2
+      rvm: system
+    - env: OSX=10.10 HOMEBREW_RUBY=2.0.0
+      os: osx
+      osx_image: xcode7.1
+      rvm: system
 script: |
   brew tap caskroom/cask
   brew tap cosmo0920/cask-coreclr
