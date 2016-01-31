@@ -7,5 +7,7 @@ cask "coreclr" do
   license :mit
   pkg "dotnet-osx-x64.#{version}.pkg"
 
+  depends_on macos: '>= :yosemite'
+
   uninstall pkgutil: 'com.microsoft.dotnet.cli.pkg.dotnet-osx-x64.*'
 end
