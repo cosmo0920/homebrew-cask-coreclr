@@ -8,6 +8,7 @@ An unofficial coreclr cask for homebrew-cask.
 ## How To Use
 
 ```bash
+$ brew tap caskroom/cask
 $ brew tap cosmo0920/cask-coreclr
 $ brew cask install coreclr
 ```
