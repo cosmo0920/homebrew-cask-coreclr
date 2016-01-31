@@ -9,3 +9,7 @@ An unofficial coreclr cask for homebrew-cask.
 $ brew tap cosmo0920/cask-coreclr
 $ brew cask install coreclr
 ```
+
+## LICENSE
+
+[MIT](LICENSE).
