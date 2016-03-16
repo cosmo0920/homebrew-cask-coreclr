@@ -13,6 +13,6 @@ script:
   - brew uninstall --force brew-cask
   - brew update
   - brew tap caskroom/cask
-  - brew tap cosmo0920/cask-coreclr
-  - sudo brew cask install coreclr
-  - sudo brew cask uninstall coreclr
+  - brew tap cosmo0920/cask-corert
+  - sudo brew cask install corert
+  - sudo brew cask uninstall corert

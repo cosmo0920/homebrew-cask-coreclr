@@ -1,4 +1,4 @@
-cask "coreclr" do
+cask "corert" do
   version :latest
   url "https://dotnetcli.blob.core.windows.net/dotnet/dev/Installers/Latest/dotnet-osx-x64.#{version}.pkg"
   name ".NET Core"
